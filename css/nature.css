@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+}
+/* img{
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+} */
+body{
+    /* background-image: url('images/fortuneindia_2020-06_ef53f9be-f257-4aa3-9af5-6ca1a9f33a86_close_up_photography_of_leaves_with_droplets_807598.jpg');
+    background-size: cover;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px); */
+}
+.bg{
+    background-image: url('fortuneindia_2020-06_ef53f9be-f257-4aa3-9af5-6ca1a9f33a86_close_up_photography_of_leaves_with_droplets_807598.jpg');
+    background-size: cover;
+    position:absolute;
+    height: 99%;
+    width: 99%;
+    -webkit-filter: blur(6px);
+    filter: blur(6px);
+}
+.logo{
+    color: aliceblue;display: inline-block;
+    margin-left: 10px;
+    width: 15%;
+    padding-left: 5%;
+    text-align: centre; 
+    position:sticky;
+    font-weight: bold;
+    font-size: large;float: left;
+}
+.navigation{
+    color: aliceblue;display: inline-block;
+    margin-left: 10px;
+    width: 67%;
+    padding-left:2%;
+    text-align: centre;
+    position:sticky;
+}
+.menu{
+    color: aliceblue;display: inline-block;
+    margin-left: 10px;
+    width: 15%;
+    padding-left: 5%;
+    text-align: centre;
+    position:sticky;
+    font-weight: bold;
+    font-size: large;
+}
+.navigation li{
+    display: inline;
+    color: aliceblue;
+}
+.navigation li a{
+    text-decoration: none;
+    color: azure;
+    /* height: 21.6px; */
+    margin-left: 15px;
+    padding-left:10%;
+    font-weight: bold;
+    font-size: large;
+}
+ li a:hover{
+    /* background-color: aliceblue; */
+    color:rgb(162, 189, 45);
+    text-decoration:underline;
+    /* background-color: aliceblue;
+    border-radius: 5px; */
+}
+#map{
+    height: 500px;
+    width: 500px;;
+}
