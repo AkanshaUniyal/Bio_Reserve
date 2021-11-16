@@ -28,9 +28,20 @@
         </div>
     </header>
     <div id="map"></div>
-    <script src="map.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&v=weekly"async>
-    </script>
+  <script>
+    function initMap(){
+      var location={lat: -23.435,lng: 131.345};
+      var map= new google.maps.Map(document.getElementById("map"),{
+        zoom:4,
+        centre: location
+      });
+      var marker= new google.maps.Marker({
+        position: location,
+        map:map
+      });
+    }
+  </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAqZeSoJNK-R0KCVbiMBgpnMzt2InUwV50&callback=initMap"></script>
 
 </body>
 </html>
