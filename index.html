@@ -8,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nature's own blog</title>
+    <script src="mapg.js"></script>
 </head>
 <body>
     <header>
@@ -27,8 +28,8 @@
            Contact us 📞
         </div>
     </header>
-    <div id="map"></div>
-  <script>
+    <div id="map" onload="initMap()"></div>
+  <!-- <script>
     function initMap(){
       var location={lat: -23.435,lng: 131.345};
       var map= new google.maps.Map(document.getElementById("map"),{
@@ -40,7 +41,7 @@
         map:map
       });
     }
-  </script>
+  </script> -->
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAqZeSoJNK-R0KCVbiMBgpnMzt2InUwV50&callback=initMap"></script>
 
 </body>
