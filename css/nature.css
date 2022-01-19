@@ -11,14 +11,24 @@ body{
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px); */
 }
+#front{
+    color: rgb(19, 83, 28);
+    font-size: 4vw;
+    font-weight: bolder;
+    margin: 2% 24%;
+    padding-left: 1%;
+    border:5px solid  rgb(19, 83, 28);
+    box-shadow: 2px 2px 2px rgb(27, 87, 35);
+}
 .bg{
     background-image: url('fortuneindia_2020-06_ef53f9be-f257-4aa3-9af5-6ca1a9f33a86_close_up_photography_of_leaves_with_droplets_807598.jpg');
     background-size: cover;
-    position:absolute;
+    /* position:absolute; */
     height: 99%;
     width: 99%;
     -webkit-filter: blur(6px);
     filter: blur(6px);
+    background-repeat: repeat;
 }
 .logo{
     color: aliceblue;display: inline-block;
@@ -31,9 +41,11 @@ body{
     font-size: large;float: left;
 }
 .navigation{
-    color: aliceblue;display: inline-block;
-    margin-left: 10px;
-    width: 67%;
+    background-color: aliceblue;
+    color: rgb(19, 83, 28);
+    display: inline-block;
+    margin-left: 17%;
+    width: 66.25%;
     padding-left:2%;
     text-align: centre;
     position:sticky;
@@ -50,17 +62,23 @@ body{
 }
 .navigation li{
     display: inline;
-    color: aliceblue;
-}
-.navigation li a{
     text-decoration: none;
-    color: azure;
+    color: rgb(19, 83, 28);
     /* height: 21.6px; */
     margin-left: 15px;
     padding-left:10%;
     font-weight: bold;
     font-size: large;
 }
+li a{
+    text-decoration: none;
+    color: rgb(19, 83, 28);
+    /* height: 21.6px; */
+    /*margin-left: 15px;
+    padding-left:10%;
+    font-weight: bold;
+    font-size: large;*/
+} 
  li a:hover{
     /* background-color: aliceblue; */
     color:rgb(162, 189, 45);
@@ -72,4 +90,13 @@ body{
     margin: 60px auto;
     height: 500px;
     width: 1000px;;
+}
+#items{
+    background-color: aliceblue;
+    margin: 2% 35%;
+    font-size: 2vw;
+    color: rgb(19, 83, 28);
+}
+#items li{
+    margin: 5%;
 }
