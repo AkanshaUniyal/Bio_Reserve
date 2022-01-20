@@ -89,7 +89,7 @@ li a{
 #map{
     margin: 60px auto;
     height: 500px;
-    width: 1000px;;
+    width: 1000px;
 }
 #items{
     background-color: aliceblue;
@@ -99,4 +99,11 @@ li a{
 }
 #items li{
     margin: 5%;
+}
+#chatbot{
+    margin: 2% 38.5%;
+    width: 22.8%;
+    height: 25vw;
+    max-height: 35vw;
+    border:9px double rgb(19, 83, 28);
 }
