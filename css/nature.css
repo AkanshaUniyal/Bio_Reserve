@@ -105,5 +105,6 @@ li a{
     width: 22.8%;
     height: 25vw;
     max-height: 35vw;
+    border-radius: 5px;
     border:9px double rgb(19, 83, 28);
 }
