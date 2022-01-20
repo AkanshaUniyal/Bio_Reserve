@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/nature.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biosphere Reserves In India</title>
+    <script src="mapg.js"></script>
+</head>
+<body>
+    <header>
+        <!-- <div class="bg"></div> -->
+        <div id="front">
+          Biosphere Reserves in India
+        </div>
+        <div class="navigation">
+            <ul>
+            <li><a href=$>Home</a></li>
+            <li><a href="https://wii.gov.in/nwdc_biosphere_reserves" target="_blank">Further Reading</a></li>
+            <li><a href="#items">Case Studies</a></li>
+            <li><a href="#chatbot">Contact us 📞</a></li>
+        </ul>
+        </div>
+    </header>
+    <div id="map" onload="initMap()"></div>
+  <!-- <script>
+    function initMap(){
+      var location={lat: -23.435,lng: 131.345};
+      var map= new google.maps.Map(document.getElementById("map"),{
+        zoom:4,
+        centre: location
+      });
+      var marker= new google.maps.Marker({
+        position: location,
+        map:map
+      });
+    }
+  </script> -->
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAqZeSoJNK-R0KCVbiMBgpnMzt2InUwV50&callback=initMap"></script>
+  <br>
+  <div id="chatbot">
+  <iframe src="https://webchat.botframework.com/embed/chatbotbio-bot?s=hh2pq1fi4TY.Jso7aMOFw6M5rw-stf62lo-nG6CzrwHoaLBlmCFCBK0" style="height: 100%; max-height: 100%; width: 100%;"></iframe>
+  </div>
+    <div id="items">
+    <ul style="list-style-type: none;">
+    <li><a href="https://vikaspedia.in/energy/environment/biodiversity-1/the-nilgiri-biosphere-reserve" target="_blank">Nilgiri Biosphere Reserve</a></li>
+    <li><a href="https://en.unesco.org/biosphere/aspac/nanda-devi" target="_blank">Nanda Devi Biosphere Reserve</a></li>
+    <li><a href="https://en.unesco.org/biosphere/aspac/gulf-mannar" target="_blank">Gulf of Mannar</a></li>
+    <li><a href="https://en.unesco.org/biosphere/aspac/sunderban" target="_blank">Sundarbans</a></li>
+    <li><a href="https://whc.unesco.org/en/list/338/" target="_blank">Manas</a></li>
+    <li><a href="http://www.unesco.org/new/en/natural-sciences/environment/ecological-sciences/biosphere-reserves/asia-and-the-pacific/india/similipal/" target="_blank">Simlipal</a></li>
+    <li><a href="http://arunachalforests.gov.in/dihang_dibang_biosphere_reserve.html" target="_blank">Dihang-Dibang</a></li>
+    <li><a href="http://www.unesco.org/new/en/natural-sciences/environment/ecological-sciences/biosphere-reserves/asia-and-the-pacific/india/pachmarhi" target="_blank">Pachmarhi Biosphere Reserve</a></li>
+    <li><a href="https://whc.unesco.org/en/list/1513/" target="_blank">Khangchendzonga National Park</a></li>
+    <li><a href="https://en.unesco.org/biosphere/aspac/agasthyamala">Agasthyamalai Biosphere Reserve</a></li>
+    <li><a href="https://upsccolorfullnotes.com/achanakmar-amarkantak-biosphere-reserve/" target="_blank">Achanakmar-Amarkantak Biosphere Reserve</a></li>
+    <li><a href="https://www.gujarattourism.com/kutch-zone/kutch/great-rann-of-kutch.html" target="_blank">Rann of Kutch</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Cold_Desert_(biosphere_reserve)" target="_blank">Cold Desert</a></li>
+    <li><a href="https://vajiramias.com/current-affairs/seshachalam-biosphere-reserve/5cde924d1d5def1204145051/" target="_blank">Seshachalam Hills</a></li>
+    <li><a href="https://www.gktoday.in/topic/panna-biosphere-reserve/" target="_blank">Panna</a></li>
+    </ul>
+    </div>
+  </body>
+</html>
