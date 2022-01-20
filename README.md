@@ -8,6 +8,7 @@ This Project contains a ChatBot made by Azure QnA Makers Service
 The link to this website on <br/> **Azure Storage - Static Website Service** is:<br/>
 **->** [Primary end point link](https://webprojectsak.z13.web.core.windows.net/)<br/>
 **->** [Secondary end point link](https://webprojectsak-secondary.z13.web.core.windows.net/)
+**->** [GitHub Pages](https://github.io/akanshauniyal/Bio_Reserve/)
 ## The step by step pocedure adopted by me to deploy this project using Azure Services is as follows:
 
 
